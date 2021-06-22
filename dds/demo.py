@@ -9,3 +9,6 @@ model = yolov5.load("models/yolov5s.pt")
 
 # Path to test image
 path = "images/Drone.jpeg"
+
+# inference process
+results = model(path)
