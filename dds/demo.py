@@ -12,3 +12,6 @@ path = "images/Drone.jpeg"
 
 # inference process
 results = model(path)
+
+# Displaying the results
+results.show()
